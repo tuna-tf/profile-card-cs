@@ -1,16 +1,28 @@
-# React + Vite
+# Portfolio Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple employee card web project designed to showcase essential information for customer service roles.
 
-Currently, two official plugins are available:
+## Features
+- Displays the location, CV, phone number, and email address
+- Includes a contact form for interested parties to reach out (managed by [Web3Forms](https://web3forms.com/))
+- Styled with [TailwindCSS](https://tailwindcss.com/) for a modern look
+- Uses icons from [Flaticon](https://www.flaticon.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Usage
+1. Clone or download this repository.
+2. Run `npm install` to install dependencies.
+3. Start the development server with `npm run dev` (uses Vite).
+4. Open `index.html` or visit the local server to view the card.
 
-## React Compiler
+## Purpose
+This project is intended as a portfolio card for customer service job applications. It allows potential employers or clients to quickly view your contact details and CV, and to contact you directly via the integrated form.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Customization
+- Update your location, CV link, phone number, and email in the relevant components (see `src/` folder).
+- Style and content can be easily adjusted in the React components and CSS files.
+- To change the form handler, update the Web3Forms integration in the form component.
+- TailwindCSS utility classes can be modified for custom styling.
+- Replace or add icons by updating the Flaticon assets in the project.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## License
+This project is for personal portfolio use. Feel free to modify and use as needed.
